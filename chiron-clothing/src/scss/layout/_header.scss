@@ -1,0 +1,44 @@
+/* Using Flexbox to space the vertical components of the header. This is to separate the horizontal top section from the welcome message based on the login status of the user.*/
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+
+  h2 {
+    padding: 1rem;
+  }
+
+  .header-message {
+    align-self: flex-end;
+  }
+}
+
+/* Display flex was chosen to space the sub-components of the header. */
+.header-container {
+  margin: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-image {
+    margin: 2rem;
+    height: 10rem;
+  }
+
+  /* Align-self applied to display the header buttons in the upper right corner of the header component.*/
+  .header-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 4rem 2rem 2rem;
+    align-self: flex-start;
+
+    /* Creating some space between the two buttons sub-components. */
+    .btn {
+      padding: 1rem 1rem;
+      margin: 0 0.25rem;
+    }
+  }
+}

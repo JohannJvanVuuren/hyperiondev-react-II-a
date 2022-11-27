@@ -1,0 +1,31 @@
+/* Import of Google Lato and Merriweather Fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+/* Import of Google Comforter Brush font. */
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+/* Global Resets */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting 1rem = 10px for ease of use. */
+html {
+  font-size: 62.5%;
+}
+
+/* Setting defaults for the body element. */
+body {
+  background-image: url('./images/rumana-s-XivbqAPEoJg-unsplash-fabric.jpg');
+  background-size: cover;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+/* Setting the position reference on the root element. */
+.root {
+  position: relative;
+}

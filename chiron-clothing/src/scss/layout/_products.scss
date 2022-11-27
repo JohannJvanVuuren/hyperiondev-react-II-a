@@ -1,0 +1,34 @@
+/* Layout of the individual product components. Using CSS Grid to position the components on the page.*/
+.product-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 1rem;
+  place-items: center;
+
+  h1,h2 {
+    text-align: center;
+  }
+
+  h1 {
+    margin: 1rem 0;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 10rem;
+    height: auto;
+  }
+
+  p {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+}

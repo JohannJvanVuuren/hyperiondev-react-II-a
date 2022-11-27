@@ -1,0 +1,28 @@
+  /* Styling of the landing page component using flex box*/
+  .landing-page-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+
+    /* Styling of the company brand slightly bigger than the logo and in a different shape. */
+    img {
+      height: 15rem;
+      width: auto;
+      border-radius: 10%;
+      margin: 2rem auto;
+      box-shadow: 5px 5px 20px $shadow-mid;
+    }
+
+    /* Applying the glass and neo-morphic effects to the landing page component body*/
+    .landing-page {
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+    }
+  }

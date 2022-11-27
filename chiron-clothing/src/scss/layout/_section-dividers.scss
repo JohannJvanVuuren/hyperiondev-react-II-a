@@ -1,0 +1,16 @@
+/* Layout and positioning of the section divider components. Using Flexbox again to center any content if present.*/
+.section-divider {
+
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-family: 'Comforter Brush', cursive;
+    color: $primary-colour;
+    font-size: 5rem;
+    letter-spacing: 2px;
+  }
+}
